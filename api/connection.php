@@ -19,26 +19,24 @@
 	*************************************************************
 	************************ LIVE SERVER ************************
 	*************************************************************
-
 	*********************
 	* WINDOWS CONFIGURATION
 	*********************
 	*/
 
 	# the host used to access DB
-	define('DB_HOST', "tcp:cc9lyrxk6o.database.windows.net,1433");
+ 
+ 	define('DB_HOST', "WIN-PCH511LD625\SQLEXPRESS");
 
+ 	# the username used to access DB
+ 
+ 	define('DB_USER', 'sa');
 
-	# the username used to access DB
-	define('DB_USER', 'pciglobal');
+ 	# the password for the username
+ 
+ 	define('DB_PASS', 'TD@haka');
 
-
-	# the password for the username
-	define('DB_PASS', 'University1');
-
-
-	# the name of the databse 
-	
+ 	# the name of the databse
 	define('DB_NAME', 'GpathDBUAT');
 	
 
